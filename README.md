@@ -2,7 +2,7 @@
 
 
 
-<h1>Comando instalação php 8.2 no zorin</h1>
+<h1>Comando instalação php 8.3 no zorin</h1>
 <p>Adiciona repositorio</p>
 	
 	sudo add-apt-repository ppa:ondrej/php
@@ -15,19 +15,19 @@
 
 	sudo apt upgrade
 </br>
-<p>Instal php 8.2</p>
+<p>Instal php 8.3</p>
 
-	sudo apt install php8.2
+	sudo apt install php8.3
 </br>
 <p>instalando pacotes adicionais</p>
 
-	sudo apt-get install php8.2-nome_pacote_adicional
+	sudo apt-get install php8.3-nome_pacote_adicional
  </br>
 
   
 <p>instalando pacotes mais comuns:</p>
 
-	sudo apt-get install -y php8.2-cli php8.2-common php8.2-fpm php8.2-mysql php8.2-zip php8.2-gd php8.2-mbstring php8.2-curl php8.2-xml php8.2-bcmath
+	sudo apt-get install -y php8.3-cli php8.3-common php8.3-fpm php8.3-mysql php8.3-zip php8.3-gd php8.3-mbstring php8.3-curl php8.3-xml php8.3-bcmath
 </br>
   
 <p>Listar modulos instalados</p>
@@ -38,7 +38,7 @@
 	
 <p>configuraçoes:</p>
 
-	/etc/php/8.2/apache2/php.ini
+	/etc/php/8.3/apache2/php.ini
  </br>
  <h2>Instalando cliente mariaDB par mysql</h2>
 
